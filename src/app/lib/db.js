@@ -1,4 +1,6 @@
 // lib/db.js
+//This lib file is connect over project to database.
+//We are using mysql12 version & promise means this will grantee over project will connect to database.
 import mysql from 'mysql2/promise';
 
 const pool = mysql.createPool({
