@@ -1,3 +1,4 @@
+//register page for laundry management system
 'use client';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
